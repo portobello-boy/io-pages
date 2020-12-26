@@ -1,4 +1,8 @@
 baseURL = "https://portobello-boy.github.io/"
 languageCode = "en-us"
-title = "portobello-boy blog"
-theme = "book"
+title = "Portobello Blog"
+theme = "papermod"
+contentdir = "content"
+
+[Author]
+    name = "Daniel Millson"
