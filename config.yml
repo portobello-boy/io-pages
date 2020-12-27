@@ -1,0 +1,41 @@
+baseURL: "https://portobello-boy.github.io/"
+title: "Portobello Blog"
+languageCode: "en-us"
+
+theme: "papermod"
+contentdir: "content"
+
+params:
+    author: "Daniel Millson"
+
+    homeInfoParams:
+        Title: Hello and welcome!
+        Content: My name is Daniel, thanks for dropping by. I'm a software developer in the financial services industry with a background in both theoretical and applied Computer Science and Mathematics. Here you'll find posts about projects I'm working on, different subjects in math that I'm learning or revisiting, and more. I hope you find something interesting here!
+
+    socialIcons:
+        - name: "github"
+          url: "https://github.com/portobello-boy"
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/daniel-millson-160100119/"
+
+menu:
+    main:
+        - identified: about
+          name: About
+          url: /about/
+          weight: 1
+        - identifier: archives
+          name: Archives
+          url: /archive/
+          weight: 10
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 20
+
+# For search
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
